@@ -39,7 +39,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/cover.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/4.5/examples/cover/cover.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -69,7 +69,7 @@
     {{ end }}
     <p class="lead">Hobbies:
     {{ range .Hobbies }}
-      {{ . }},
+      {{ . }}
     {{ else }}
       <p class="lead">You dont have hobbies</p>
     {{ end }}
